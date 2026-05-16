@@ -1,0 +1,77 @@
+# === Day 2 變數與型別練習 ===
+
+# 題 1：宣告變數
+# 建立 name(字串)、age(整數)、height(浮點)、is_student(布林)，並用 print 印出
+# 提示：用 f-string，例如 print(f"名字：{name}")
+
+# name = "Oliver"
+# age = 25
+# height = 1.80
+# is_student = True
+
+# print(f"名字:{name}")
+# print(f"年齡:{age}")
+# print(f"身高:{height}")
+# print(f"是否學生:{is_student}")
+
+
+
+# 題 2：字串切片
+# 給定 s = "Hello, Python!"，印出：
+# (a) 前 5 個字元
+# (b) 最後 6 個字元
+# (c) 反轉整個字串
+# s = "Hi, there! Python!"
+
+# print(f"前 5 個字元:{s[:5]}")
+# print(f"最後6個字元:{s[-6:]}")
+# print(f"反轉整個字串:{s[::-1]}")
+
+
+
+# 題 3：字串方法
+# 給定 text = "  Learning Python is Fun  "
+# (a) 去掉前後空白
+# (b) 全轉小寫
+# (c) 把 "Fun" 換成 "Awesome"
+# (d) 用空白切成 list
+# text ="  Learning Python is Fun  "
+# print(f"去掉前後空白={text.strip()}")
+# print(f"全轉小寫={text.lower().strip()}")
+# print(f"把'Fun'換成'Awesome'={text.replace("Fun", "Aswome")}")
+# print(f"用空白切成 list={text.split()}")
+
+
+
+# 題 4：數字運算
+# 計算 2 的 10 次方、17 除以 5 的商與餘數、圓周率 * 半徑平方（半徑=7）
+print(2 ** 10)
+print(17 // 5)
+print(17 % 5)
+
+# 題 5：型別轉換
+# 使用者輸入一個數字字串，轉成 int 後加 100 再印出
+# num_str = input("請輸入數字：")
+
+
+# 題 6：type() 練習
+# 對以下 5 個值用 type() 檢查型別並印出
+values = [42, 3.14, "hello", True, None]
+
+
+# 題 7：布林運算
+# 判斷一個數字是否在 1~100 之間（包含）
+
+
+# 題 8：字串格式化比較
+# 同樣一句「我叫 XX，今年 YY 歲」用三種方式印出：
+# (a) + 號串接  (b) .format()  (c) f-string
+
+
+# 題 9：轉型陷阱
+# 執行 int("3.14") 會發生什麼？改成什麼才會成功？把答案寫成註解
+
+
+# 題 10：綜合題
+# 寫一個小程式：詢問使用者的名字與出生年，計算並印出：
+# 「你好 XXX，你今年 YY 歲」（用 datetime 取得今年年份）
