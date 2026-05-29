@@ -26,8 +26,30 @@
 # print(f"前 5 個字元:{s[:5]}")
 # print(f"最後6個字元:{s[-6:]}")
 # print(f"反轉整個字串:{s[::-1]}")
-
-
+# message1 =" GGGG"
+# print(message1.lstrip())
+# print(message1)
+# message2 ='GGG '
+# print(f"{message2.rstrip()}{message1}")
+# print(message2)
+# message3 = "12345"
+# print(f"{message3.removeprefix('1')}")
+# print(f"{message3.removeprefix('123')}")
+# name1 = "oliver" 
+# print(f"Hello {name1.title()}, would you like to learn some Python today?")
+# print(f"{name1.upper()}")
+# print(f"{name1.lower()}")
+# famous_name = "Dr.House"
+# print('Dr.House says"Everybody lies!"')
+# print(f"{famous_name} says'Everybody lies!'")
+famous_name = "\n Dr.House "
+famous_name2 = "eeeee"
+print(f"{famous_name}")
+print(f"去掉前面空白{famous_name.lstrip()}")
+print(f"去掉前面空白{famous_name.lstrip()}{famous_name2}你看中間還有一個空白")
+print(f"{famous_name.rstrip()}")
+print(f"去掉後面空白{famous_name.rstrip()}{famous_name2}")
+# print(f"\t{message}\n\t{message}")
 
 # 題 3：字串方法
 # 給定 text = "  Learning Python is Fun  "
@@ -45,9 +67,9 @@
 
 # 題 4：數字運算
 # 計算 2 的 10 次方、17 除以 5 的商與餘數、圓周率 * 半徑平方（半徑=7）
-print(2 ** 10)
-print(17 // 5)
-print(17 % 5)
+# print(2 ** 10)
+# print(17 // 5)
+# print(17 % 5)
 
 # 題 5：型別轉換
 # 使用者輸入一個數字字串，轉成 int 後加 100 再印出
@@ -56,7 +78,7 @@ print(17 % 5)
 
 # 題 6：type() 練習
 # 對以下 5 個值用 type() 檢查型別並印出
-values = [42, 3.14, "hello", True, None]
+# values = [42, 3.14, "hello", True, None]
 
 
 # 題 7：布林運算
