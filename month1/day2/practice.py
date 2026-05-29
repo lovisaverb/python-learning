@@ -42,13 +42,16 @@
 # famous_name = "Dr.House"
 # print('Dr.House says"Everybody lies!"')
 # print(f"{famous_name} says'Everybody lies!'")
-famous_name = "\n Dr.House "
-famous_name2 = "eeeee"
-print(f"{famous_name}")
-print(f"去掉前面空白{famous_name.lstrip()}")
-print(f"去掉前面空白{famous_name.lstrip()}{famous_name2}你看中間還有一個空白")
-print(f"{famous_name.rstrip()}")
-print(f"去掉後面空白{famous_name.rstrip()}{famous_name2}")
+# famous_name = "\n Dr.House "
+# famous_name2 = "eeeee"
+# print(f"{famous_name}")
+# print(f"去掉前面空白{famous_name.lstrip()}")
+# print(f"去掉前面空白{famous_name.lstrip()}{famous_name2}你看中間還有一個空白")
+# print(f"{famous_name.rstrip()}")
+# print(f"去掉後面空白{famous_name.rstrip()}{famous_name2}")
+filename = "python_notes.txt"
+print(f"{filename}")
+print(f"去掉副檔名{filename.removesuffix(".txt")}")
 # print(f"\t{message}\n\t{message}")
 
 # 題 3：字串方法
