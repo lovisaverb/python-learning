@@ -49,9 +49,10 @@
 # print(f"去掉前面空白{famous_name.lstrip()}{famous_name2}你看中間還有一個空白")
 # print(f"{famous_name.rstrip()}")
 # print(f"去掉後面空白{famous_name.rstrip()}{famous_name2}")
-filename = "python_notes.txt"
-print(f"{filename}")
-print(f"去掉副檔名{filename.removesuffix(".txt")}")
+# filename = "python_notes.txt"
+# print(f"{filename}")
+# print(f"去掉副檔名{filename.removesuffix(".txt")}")
+# print(f"去掉副檔名{filename.removeprefix(".txt")}")
 # print(f"\t{message}\n\t{message}")
 
 # 題 3：字串方法
@@ -73,7 +74,10 @@ print(f"去掉副檔名{filename.removesuffix(".txt")}")
 # print(2 ** 10)
 # print(17 // 5)
 # print(17 % 5)
-
+int1 = 3 + 2
+int2 = 3 * 2
+int3 = 3 / 2
+print(f"3+2={int1}\n3X2={int2}\n3/2={int3}") 
 # 題 5：型別轉換
 # 使用者輸入一個數字字串，轉成 int 後加 100 再印出
 # num_str = input("請輸入數字：")
