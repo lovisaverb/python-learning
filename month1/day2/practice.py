@@ -1,3 +1,4 @@
+import math
 # === Day 2 變數與型別練習 ===
 
 # 題 1：宣告變數
@@ -78,6 +79,18 @@ int1 = 3 + 2
 int2 = 3 * 2
 int3 = 3 / 2
 print(f"3+2={int1}\n3X2={int2}\n3/2={int3}") 
+print(2 ** 10)
+print(17 // 5)
+print(17 % 5)
+print(math.pi)
+print(f"半徑=7，圓面積={7**2*math.pi}")
+float1 = float(4/2)
+print(f"{float1}")
+int4 = 200_000_000
+print(f"{int4}")
+x, y, z = 1, 3 ,5
+print(f"{x,y,z}")
+
 # 題 5：型別轉換
 # 使用者輸入一個數字字串，轉成 int 後加 100 再印出
 # num_str = input("請輸入數字：")
